@@ -1,0 +1,149 @@
+.first-name {
+    display: block;
+    position: relative;
+    height: 17px;
+    margin: 9px 0 0 5px;
+    color: #3f546f;
+    font-family: Nunito Sans, var(--default-font-family);
+    font-optical-sizing: auto;
+    font-size: 14px;
+    font-weight: 400;
+    text-align: left;
+    margin-left: 10px;
+  }
+  .background-preApproval{
+    background-color: #ffffff;
+    width:99%;
+    flex-shrink: 0;
+    border-radius: 5px;
+    border: 1px solid #d9d9d9;
+  }
+  .main-back{
+    background-color: #F6F7FA;
+  }
+
+  .main-heading {
+    background-color: #f0f0f0;
+    padding: 15px;
+    margin: 10px;
+  }
+  .error-message{
+    color: rgba(160, 3, 3, 0.91);
+    padding-left: 11px;
+  }
+  .loan-property-info {
+    height: 22px;
+    margin: 13px 0 0 18px;
+    color: #474a54;
+    font-family: Nunito Sans, var(--default-font-family);
+    font-optical-sizing: auto;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 21.6px;
+    text-align: left;
+    white-space: nowrap;
+    z-index: 1;
+  }
+  
+  .rectangle1 {
+    width: 395px;
+    height: 40px;
+    margin: 0 10px 10px 10px;
+    border: none;
+    z-index: 4;
+    border-radius: 4px;
+    background: #F1F1F1;
+    color: #666;
+    font-family: Nunito Sans, var(--default-font-family);
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+  }
+  .rectangle1:focus {
+    border-color: lightcoral; /* Light red border when focused */
+    box-shadow: 0 0 5px rgba(240, 128, 128, 0.7); /* Optional: add a subtle shadow */
+  }
+
+  .preapproval-but1.active {
+    background-color:transparent; 
+    border: transparent;
+    color:  rgba(255, 255, 255, 1);
+  }
+  .preapproval-but2.active {
+    background-color:transparent; 
+    border: transparent;
+    color: rgba(255, 255, 255, 1); 
+  }
+  .preapproval-but1{
+    width : 320px;
+    height: 84px;
+    background-color:transparent; 
+    color: #3F546F;
+    text-align: center;
+    font-family: Nunito Sans, var(--default-font-family);
+    font-size: 16px;
+      font-weight: 300;
+      line-height: 36px;
+      text-align: left;
+      white-space: nowrap;
+      z-index: 12;
+      border: transparent;
+  }
+  .preapproval-but2{
+    width : 320px;
+    height: 84px;
+    text-align: center;
+    background-color:transparent;
+    color: #3F546F;
+    font-family: Nunito Sans, var(--default-font-family);
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 36px;
+    text-align: left;
+    white-space: nowrap;
+    z-index: 14;
+    border: transparent;
+    border-radius: 50px;
+   
+  }
+
+
+  .enter-last-name {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    position: absolute;
+    height: 14px;
+    top: 7px;
+    left: 10px;
+    color: #706f6f;
+    font-family: Nunito Sans, var(--default-font-family);
+    font-optical-sizing: auto;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 14px;
+    text-align: left;
+    white-space: nowrap;
+  }
+
+  .prebutton1{
+    height: 45px;
+    width: 119px;
+    background-color: #AB1331;
+    color:white;
+    text-align: center;
+    border-color: transparent;
+    margin-bottom: 10px;
+    border-radius: 10px;
+  }
+
+  .btn-link {
+    color: blue; /* Change this to your desired shade */
+    text-decoration: underline;
+    background: transparent; /* Removes button background */
+    border: none; /* Removes button border */
+    padding: 0; /* Adjust padding if necessary */
+  }
+  
+ 

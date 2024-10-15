@@ -1,0 +1,89 @@
+
+  .support1{
+    position: relative;
+    color: #B30202;
+    font-family: Nunito Sans, var(--default-font-family);
+    font-size: 40px;
+    font-weight: 500;
+    line-height: 47.4px;
+  }
+/* 
+
+.Support-text{
+    border-color:#CACED8 ;
+    border-style: solid;
+    color: #CACED8;
+    width: 300px;
+    height: 45px;
+    border-radius: 5px;
+    font-size: 16px;
+    font-family: Nunito Sans, var(--default-font-family), sans-serif;
+    font-optical-sizing: auto;
+    font-weight: '400';
+    line-height: 19.60;
+    border-radius: 5px;
+  }
+
+
+  .Support-text1 {
+    border-color: #CACED8;
+    border-style: solid;
+    color: #CACED8;
+    width: 300px;
+    height: auto;
+    border-radius: 5px;
+    font-size: 16px;
+    font-family: Nunito Sans, var(--default-font-family), sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    padding: 10px; 
+    line-height: 1.5;
+    resize: none; 
+} */
+
+
+.Support1 {
+  height: 200px;
+  font-family: Nunito Sans, var(--default-font-family);
+  font-size: 40px;
+  font-weight: 400;
+  line-height: 47.4px;
+  background-size: cover;
+}
+
+
+.Support-text {
+  width: 300px;
+  height: 40px;
+  margin: 0 10px 10px 10px;
+  border: none;
+  z-index: 4;
+  border-radius: 4px;
+  background: #F1F1F1;
+  color: #666;
+  font-family: Nunito Sans, var(--default-font-family);
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.Support-text:focus {
+  border-color: lightcoral; /* Light red border when focused */
+  box-shadow: 0 0 5px rgba(240, 128, 128, 0.7); /* Optional: add a subtle shadow */
+}
+
+.Support-text1 {
+  width: 300px;
+  height: 100px; 
+  margin: 0 10px 10px 10px;
+  border: none;
+  z-index: 4;
+  border-radius: 4px;
+  background: #F1F1F1;
+  color: #666;
+  font-family: Nunito Sans, var(--default-font-family);
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}

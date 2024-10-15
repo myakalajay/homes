@@ -1,0 +1,840 @@
+.table-container {
+  max-height: 400px;
+  overflow-y: auto;
+}
+
+.tab {
+  width: 40vw;
+  table-layout: fixed;
+}
+
+.table-text{
+  font-size: 15px;
+  font-weight: 500;
+  font-family: Nunito Sans, var(--default-font-family);
+  font-optical-sizing: auto;
+  color: #3F546F;
+}
+
+.form-control,
+.form-select {
+ max-width: 150px;
+}
+
+.calculator_left .form-group {
+ margin-bottom: 25px;
+}
+
+.button1.active {
+  background-color:#AB1331; 
+  color: #ffffff;/* Change to the desired active color for Loan and Property button */
+}
+.button2.active {
+  background-color:#AB1331;
+  color:#ffffff;/* Change to the desired active color for Affordability Calculator button */
+}
+.button1{
+  width : 679px;
+  height: 78px;
+  background-color:rgba(217, 37, 34, 0.10) ; 
+  top: 21px;
+  left: 188px;
+  color: #AB1331;
+  font-family: Nunito Sans, var(--default-font-family);
+  font-optical-sizing: auto;
+  font-size: 30px;
+  font-weight: 600px;
+  line-height: 36px;
+  text-align: center;
+  white-space: nowrap;
+  z-index: 12;
+  border: transparent;
+}
+
+.button2{
+  width:679px;
+  height: 78px;
+  background-color:rgba(217, 37, 34, 0.10) ;
+  top: 21px;
+  left: 187px;
+  color: #AB1331;
+  font-family: Nunito Sans, var(--default-font-family);
+  font-optical-sizing: auto;
+  font-size: 30px;
+  font-weight: 400;
+  line-height: 36px;
+  text-align: center;
+  white-space: nowrap;
+  z-index: 14;
+  border: transparent;
+}
+.text1{
+  height: 35px;
+  width: 150px;
+  color: #0f1728;
+  font-family: Nunito Sans, var(--default-font-family);
+  font-optical-sizing: auto;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 28.8px;
+  text-align: left;
+}
+.use-our-mortage{
+  color: #595C64; 
+  font-size: 20px;
+  font-family: Nunito Sans, var(--default-font-family);
+  font-optical-sizing: auto;
+  font-weight: 400;
+  word-wrap: break-word;
+}
+.home-pri{
+    height: 24px;
+    left: calc(50% - 647.5px);
+    color: #0f1728;
+    font-family: Nunito Sans, var(--default-font-family);
+  font-optical-sizing: auto;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 24px;
+}
+.text-box{
+  /* height: 50px;
+  width: 250px;
+    left: calc(50% - 190.5px);
+    color: #0f1728;
+    font-family: Nunito Sans, var(--default-font-family);
+  font-optical-sizing: auto;
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 36px;
+    text-align: left;
+    white-space: nowrap;
+    z-index: 45;
+    border-radius: 5px;
+     border: 1px #717070 solid; */
+     position: relative;
+     width: 250px;
+     height: 60px;
+     margin: 13px 0 0 0;
+     border: 1px solid #706f6f;
+     z-index: 1;
+     border-radius: 5px;
+     box-sizing: content-box;
+}
+.monthly-pay{
+    height: 24px;
+    left: calc(50% - 217.5px);
+    color: #0f1728;
+    font-family: Nunito Sans, var(--default-font-family);
+  font-optical-sizing: auto;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: left;
+    white-space: nowrap;
+    z-index: 44;
+  
+}
+.monthly{
+  color: #101828; 
+  font-size: 30px;
+   font-family :Nunito Sans, var(--default-font-family);
+    font-weight: 700;
+    word-wrap: break-word;
+  
+}
+.recta{
+  width: 524px;
+  height: 70px;
+  padding: 6px;
+  font-size: 0px;
+  border: 1px solid #706f6f;
+  z-index: 1;
+  border-radius: 5px;
+  box-sizing: content-box;
+}
+.rect{
+  width: 240px;
+  height: 60px;
+  margin-top: 15px;
+  font-size: 14px;
+  border: 1px solid #3f546f;
+  /* z-index: 1; */
+  border-radius: 5px;
+  box-sizing: content-box;
+  box-shadow: 1px 2px 8px rgba(0, 0, 0, 0.2);
+}
+.home{
+  position: relative;
+  /* margin: 2px 0 0 15px; */
+  color: #3f546f;
+  font-family: Nunito Sans, var(--default-font-family);
+  font-size: 14px;
+  font-weight: 500;
+  text-align: left;
+}
+
+
+.home1{
+  position: relative;
+  margin: 0px 0 0 3px;
+  color: #737986;
+  font-family: Nunito Sans, var(--default-font-family);
+  font-optical-sizing: auto;
+  font-size: 18px;
+  font-weight: 700;
+  text-align: left;
+}
+.home-price-value {
+  width: 120px;
+  height: 22px;
+  color: #0f1728;
+  font-family: Nunito Sans, var(--default-font-family);
+  font-size: 22px;
+  font-weight: 400;
+  text-align: left;
+}
+.home-price{
+  color: #0f1728;
+  font-family: Nunito Sans, var(--default-font-family);
+  font-optical-sizing: auto;
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 28.8px;
+  text-align: left;
+  white-space: nowrap;
+}
+.breakup.active {
+  background-color: #AB1331; /* Pink color for active Breakup button */
+  color: #ffffff; /* Text color for active Breakup button */
+}
+.amortization.active {
+  background-color: #AB1331; /* Red color for active Amortization button */
+  color: #ffffff; /* Text color for active Amortization button */
+}
+.breakup{
+  width : 400px;
+  height: 60px;
+  background-color:rgba(217, 37, 34, 0.10) ; 
+  top: 21px;
+    left: 188px;
+    color: #AB1331;
+    font-family: Nunito Sans, var(--default-font-family);
+  font-optical-sizing: auto;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 36px;
+    text-align: center;
+    white-space: nowrap;
+    z-index: 12;
+    border: transparent;
+}
+.amortization{
+  width: 400px;
+  height: 60px;
+  background-color:rgba(217, 37, 34, 0.10) ;
+  top: 21px;
+  left: 187px;
+  color: #AB1331;
+  font-family: Nunito Sans, var(--default-font-family);
+  font-optical-sizing: auto;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 36px;
+  text-align: center;
+  white-space: nowrap;
+  z-index: 14;
+  border: transparent;
+}
+.add-licenses{
+  height: 35px;
+  width: 100px;
+  font-size: 16px;
+  font-family: Nunito Sans, var(--default-font-family);
+  font-weight: 400;
+  color: #ffffff;
+  background-color: rgba(179, 2, 2, 1);
+  border: transparent;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-right: 50px;
+}
+
+.custom-slider{
+  padding-left: 15px;
+  width: 455px;
+  height: 18px;
+  margin: 0 auto;
+  color: #D92522;
+}
+.custom-slid{
+  width: 240px;
+  /* height:18px; */
+}
+.custom-slid1{
+  width: 210px;
+  /* height:18px; */
+}
+.monthly-back{
+  background-color: #fff;
+  width: 100%;
+  height: 100%;
+  margin-top: 15px;
+  /* padding: 10px;   */
+  box-shadow: -4px 0px 4px 0px rgba(0, 0, 0, 0.10);
+}
+.monthly-back1{
+  background-color: #fff;
+  width: 100%;
+  height: 100%;
+  margin-top: 15px;  
+  box-shadow: -4px 0px 4px 0px rgba(0, 0, 0, 0.10);
+  /* box-shadow: 0px 0px 6px 4px rgba(0, 0, 0, 0.10); */
+}
+
+.monthly-price{
+  display: block;
+  position: relative;
+  height: 45px;
+  /* margin: 13px 0 0 0; */
+  color: #0f1728;
+  font-family: Nunito Sans, var(--default-font-family);
+  font-optical-sizing: auto;
+  font-size: 32px;
+  font-weight: 600;
+  line-height: 43px;
+  text-align: left;
+  white-space: nowrap;
+}
+.AffordableHomeValuebutton{
+  width: 100%;
+  height: 60px;
+  background-color: rgba(179, 2, 2, 0.06); 
+  border-bottom: 2px solid #B30202;
+  color: #000;
+  z-index: 1;
+  margin: 15px;
+  /* margin-left: 30px; */
+}
+.Refinancebutton{
+  width: 90%;
+  height: 60px;
+  background-color: rgba(179, 2, 2, 0.06); 
+  border-bottom: 2px solid #B30202;
+  color: #000;
+  z-index: 1;
+  margin: 15px;
+  /* margin-left: 30px; */
+}
+.AffordableHome{
+  
+  height: 24px;
+  margin: '0 auto';
+  color: #B30202;
+  font-family: Nunito Sans, var(--default-font-family);
+  font-optical-sizing: auto;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 24px;
+  text-align: center;
+  white-space: nowrap;
+  z-index: 2;
+}
+.principal-interest {
+  height: 29px;
+  top: 13px;
+  left: 40px;
+  color: #3f546f;
+  font-family: Nunito Sans, var(--default-font-family);
+  font-optical-sizing: auto;
+  font-size: 26px;
+  font-weight: 400;
+  line-height: 28.8px;
+  text-align: left;
+  white-space: nowrap;
+  z-index: 14;
+}
+.principal-interest1 {
+  height: 29px;
+  top: 13px;
+  left: 40px;
+  color: #3f546f;
+  font-family: Nunito Sans, var(--default-font-family);
+  font-optical-sizing: auto;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 28.8px;
+  text-align: left;
+  white-space: nowrap;
+  z-index: 14;
+}
+.text{
+  height:30px;
+  width: 150px;
+  padding-right: 10px;
+  margin-right: 100px;
+  border-radius:5px;
+  border-color: bisque;
+  font-size: 18px;
+}
+.text-amount{
+  height:30px;
+  font-size: 35px;
+  font-weight: 400px;
+ font-family: Nunito Sans, var(--default-font-family);
+  font-optical-sizing: auto;
+  /* padding-right: 10px; */
+}
+.text-amount1{
+ font-size: 20px;
+}
+.text-amount2{
+  font-size: 22px;
+  font-weight: 700px;
+ font-family: Nunito Sans, var(--default-font-family);
+  font-optical-sizing: auto;
+ }
+
+.Monthalypayment{
+  background-color:#AB1331;
+  color:#f0f0f0;
+  text-align: center;
+  align-items: center;
+  font-size: 30px;
+}
+
+.Refinance-background{
+  background-color: rgba(255, 246, 246, 0.60);
+}
+.Refinance-text{
+  color: #595C64;
+  font-family:  Nunito Sans, var(--default-font-family);
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.DetailsLoan{
+  background-color: #EFEEEE;
+}
+.DetailsLoan1{
+  background-color: #EFEEEE;
+  width: 550px;
+}
+.DetailsLoanttext{
+  color: #3F546F;
+  font-family: Nunito Sans, var(--default-font-family);
+  font-optical-sizing: auto;
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+.consolidate-from{
+  margin-top: 100px;
+}
+.home-price-box2{
+  /* width: 100%; */
+  height: 100%;
+  /* flex-shrink: 0; */
+  border-radius: 5px;
+  background: #FFF;
+  box-shadow: 0px 0px 6px 4px rgba(0, 0, 0, 0.10);
+  padding:20px;
+}
+.home-price-box{
+  width: 390px;
+  height: 100%;
+  flex-shrink: 0;
+  border-radius: 5px;
+  background: #FFF;
+  box-shadow: 0px 0px 6px 4px rgba(0, 0, 0, 0.10);
+  padding:20px;
+}
+.home-text{
+  color: #000;
+font-family: Nunito Sans, var(--default-font-family);
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+.home-text1{
+  color: #000;
+font-family: Nunito Sans, var(--default-font-family);
+font-size: 16px;
+font-style:normal;
+font-weight: 400;
+line-height: normal;
+
+}
+.home-value {
+  width: 315px;
+  height: 50px;
+  flex-shrink: 0;
+  border-radius: 5px;
+  border: 1px solid #C2C0C0;
+  background: #FFF;
+}
+
+.home-value2 {
+  width: 325px;
+  height: 50px;
+  flex-shrink: 0;
+  border-radius: 5px;
+  border: 1px solid #C2C0C0;
+  background: #FFF;
+}
+
+.home-value1 {
+  width: 155px;
+  height: 50px;
+  /* flex-shrink: 0; */
+  border-radius: 5px;
+  border: 1px solid rgba(194, 192, 192, 1);
+  background: #FFF;
+}
+
+.consolidate-smalltext-box{
+  width: 90px;
+  height: 30px;
+  border-radius: 4px;
+  background: #F1F1F1;
+  color: #666;
+  /* border: ; */
+  /* border-bottom: 2px solid #000; */
+  font-size: 16px;
+  font-family: Nunito Sans, var(--default-font-family);
+  font-style: normal;
+  font-weight: 400;
+  border-color: transparent;
+  /* margin-left: 150px; */
+}
+.DetailsButton.active{
+  width: 604px;
+  height: 60px;
+  flex-shrink: 0;
+  background: #FFF;
+  color: #000;
+  font-family: Nunito Sans, var(--default-font-family);
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  border: none;
+}
+
+.NewLoanButton.active{
+  width: 604px;
+  height: 60px;
+  flex-shrink: 0;
+  background: #FFF;
+  color: #000;
+  font-family: Nunito Sans, var(--default-font-family);
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  border: none;
+}
+
+.DetailsButton{
+  width: 1104px;
+  height: 60px;
+  flex-shrink: 0;
+  color: #AB1331;
+  font-family: Nunito Sans, var(--default-font-family);
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  border: none;
+  border-bottom: 2px solid #AB1331;
+  background: rgba(179, 2, 2, 0.06);
+}
+
+
+.NewLoanButton{
+  width: 604px;
+  height: 60px;
+  flex-shrink: 0;
+  color: #AB1331;
+  font-family: Nunito Sans, var(--default-font-family);
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  border: none;
+  border-bottom: 2px solid #AB1331;
+  background: rgba(179, 2, 2, 0.06);
+}
+
+.calculator-text4{
+  width: 150px;
+  height: 40px;
+  margin: 0 0px 10px 0px;
+  border: none;
+  z-index: 4;
+  border-radius: 4px;
+  background: #F1F1F1;
+  color: #666;
+  font-family: Nunito Sans, var(--default-font-family);
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.calculator-text{
+  width: 300px;
+  height: 40px;
+  margin: 0 10px 10px 10px;
+  border: none;
+  z-index: 4;
+  border-radius: 4px;
+  background: #F1F1F1;
+  color: #666;
+  font-family: Nunito Sans, var(--default-font-family);
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.calculator-text1{
+  width: 100px;
+  height: 25px;
+  /* margin: 0 15px 15px 10px; */
+  border: none;
+  z-index: 4;
+  border-radius: 4px;
+  background: #F1F1F1;
+  color: #666;
+  font-family: Nunito Sans, var(--default-font-family);
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.calculator-text2{
+  width: 100px;
+  height: 25px;
+  /* margin: 0 15px 15px 10px; */
+  border: none;
+  z-index: 4;
+  border-radius: 4px;
+  background: #F1F1F1;
+  color: #666;
+  font-family: Nunito Sans, var(--default-font-family);
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.calculator-box1{
+  /* width: 100px;
+  height: 25px; */
+  /* margin: 0 15px 15px 10px; */
+  /* border: none; */
+  z-index: 4;
+  /* border-radius: 4px; */
+  /* background: #F1F1F1; */
+  color: #666;
+  font-family: Nunito Sans, var(--default-font-family);
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+.calculator-text3{
+  width: 100%;
+  height: 40px;
+  margin: 0 0px 9px 0px;
+  border: none;
+  z-index: 4;
+  border-radius: 4px;
+  background: #F1F1F1;
+  color: #666;
+  font-family: Nunito Sans, var(--default-font-family);
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.calculator-text3:focus {
+  border-color: lightcoral; /* Light red border when focused */
+  box-shadow: 0 0 5px rgba(240, 128, 128, 0.7); /* Optional: add a subtle shadow */
+}
+.Consolidate-green{
+  border-radius: 15px;
+  background: #8EC163;
+  width: 16px;
+  height: 16px;
+  flex-shrink: 0;
+}
+
+.Consolidate-box{
+  width: 429px;
+height: 424px;
+flex-shrink: 0;
+border-radius: 5px;
+background: #FFF;
+/* margin-top: 30px; */
+box-shadow: 0px 0px 6px 4px rgba(0, 0, 0, 0.10);
+}
+.Consolidate-box1{
+  width: 100%;
+  height: 424px;
+  flex-shrink: 0;
+  background-color: #FFF;
+  box-shadow: -4px 0px 4px 0px rgba(0, 0, 0, 0.10);
+  margin-top: 0;
+}
+
+.consolidate-back{
+ margin-top: 100px;
+}
+.text-box1{
+  height:30px;
+  width: 150px;
+  /* padding-right: 10px; */
+  /* margin-right: 100px; */
+  /* border-radius:5px; */
+  /* border-color: bisque; */
+  text-align: center;
+  font-size: 18px;
+  border: transparent;
+  border-bottom: 1px solid #717070;
+}
+
+.green {
+  background-color: green;
+}
+
+.yellow {
+  background-color: yellow;
+}
+
+.orange {
+  background-color: orange;
+}
+
+.red {
+  background-color: red;
+}
+
+/* Optional: Adjust text color to be visible */
+.green,
+.yellow,
+.orange,
+.red {
+  color: white;
+}
+
+/* Styling for slider colors */
+.green::-webkit-slider-thumb {
+  background-color: green;
+}
+
+.yellow::-webkit-slider-thumb {
+  background-color: yellow;
+}
+
+.orange::-webkit-slider-thumb {
+  background-color: orange;
+}
+
+.red::-webkit-slider-thumb {
+  background-color: red;
+}
+
+/* For non-webkit browsers */
+.green::-moz-range-thumb {
+  background-color: green;
+}
+
+.yellow::-moz-range-thumb {
+  background-color: yellow;
+}
+
+.orange::-moz-range-thumb {
+  background-color: orange;
+}
+
+.red::-moz-range-thumb {
+  background-color: red;
+}
+
+/* General slider style */
+input[type="range"] {
+  -webkit-appearance: none;
+  appearance: none;
+  width: 100%;
+  height: 8px;
+  background: #ddd;
+  outline: none;
+  border-radius: 5px;
+}
+
+/* DTI-specific slider thumb color using CSS variables */
+#dtiSlider::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  appearance: none;
+  width: 18px;
+  height: 18px;
+  border-radius: 50%;
+  background-color: var(--thumb-color, green); /* Default to green */
+}
+
+#dtiSlider::-moz-range-thumb {
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  background-color: var(--thumb-color, green); /* Default to green */
+}
+
+.monthlypaymentimage{
+  background: #E5CE79;
+  background-image: url('/assets/images/home-page/monthly-payment.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  height:115px;
+}
+
+
+.Affordabilityimage{
+  background-image: url('/assets/images/home-page/calculator-header.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  height:120px;
+}
+.Consolidationimage{
+  background-image: url('/assets/images/home-page/Consolidation.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  height:115px;
+}
+.Refinanceimage{
+  background-image: url('/assets/images/home-page/Refinancing.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  height:115px;
+}
+
+.refinance-dropdowm-button{
+  height: 30px;
+  width: 30px;
+  background-color: #AB1331;
+  color: #ffffff;
+  text-align: center;
+  font-weight: 700;
+}
+
+.calculator-headertext{
+  font-size: 25px;
+  color: #ffffff;
+  font-weight: 600;
+  text-align: center;
+  /* margin-left: 45px; */
+  /* padding: 10px; */
+}

@@ -1,0 +1,55 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f8f8f8;
+    margin: 0;
+    padding: 20px;
+}
+
+.column a {
+    display: block;
+    color: blue;
+    text-decoration: none;
+    margin-bottom: 5px;
+}
+
+.loan9 {
+    position: relative;
+    color: #000000;
+    font-family: Nunito Sans, var(--default-font-family);
+    font-size: 26px;
+    font-weight: 600;
+    line-height: 47.4px;
+  }
+
+  .loan10 {
+    position: relative;
+    color: #B30202;
+    font-family: Nunito Sans, var(--default-font-family);
+    font-size: 36px;
+    font-weight: 600;
+    line-height: 47.4px;
+  }
+
+  .sitemap-content {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap; /* Ensures columns wrap if screen size is small */
+    gap: 20px; /* Adds space between the columns */
+}
+.column {
+    flex: 1;
+    min-width: 200px; 
+}
+
+.column a {
+    display: block;
+    color: blue;
+    text-decoration: none;
+    margin-bottom: 5px;
+}
+
+.underline {
+    text-decoration: underline; /* Underline only for Loan Products heading */
+}
+
+

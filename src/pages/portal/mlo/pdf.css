@@ -1,0 +1,114 @@
+/* body {
+    font-family: Arial, sans-serif;
+    background-color: #F8F8F8;
+    color: #333;
+    margin: 0;
+    padding: 20px;
+} */
+/* .container {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    background-color: #FFF;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+} */
+.head-background{
+    background-color: #CCC;
+    height: 50px;
+    width: 470px;
+    text-align: left;
+    font-size: 26px;
+    font-weight: 500;
+    font-family: Lato var(--default-font-family);
+}
+.form-section {
+    width: 45%;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+}
+.form-section h2 {
+    width: 100%;
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+.form-section label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+.form-group {
+    flex: 1 1 calc(50% - 15px);
+    display: flex;
+    flex-direction: column;
+}
+.form-group input[type="text"],
+.form-group select {
+    padding: 8px;
+    border: 1px solid #CCC;
+    border-radius: 4px;
+}
+.radio-group {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+.radio-group label {
+    margin-right: 15px;
+}
+.preview-section {
+    width: 60%;
+    text-align: center;
+    border: 1px solid #CCC;
+    border-radius: 8px;
+    padding: 20px;
+    background-color: #FFF;
+}
+.preview-section .preview-box {
+    width: 100%;
+    height: 800px;
+    border: 2px solid #00A2FF;
+    border-radius: 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #F0F0F0;
+    padding: 10px;
+    box-sizing: border-box;
+    overflow-wrap: break-word;
+    word-wrap: break-word;
+    white-space: pre-wrap;
+}
+.send-button {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 14px;
+    border-radius: 4px;
+    text-align: center;
+    text-decoration: none;
+    background-color: #FF0000;
+    color: #FFF;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+.borrower-info {
+    display: none;
+    flex-wrap: wrap;
+    gap: 15px;
+}
+.borrower-info .form-group {
+    flex: 1 1 calc(50% - 15px);
+    margin-top: 15px;
+}
+.form-group textarea {
+    padding: 8px;
+    border: 1px solid #CCC;
+    border-radius: 4px;
+    resize: vertical;
+}
+.pdf-button-container {
+    width: 100%;
+    text-align: left;
+    margin-top: 10px;
+}

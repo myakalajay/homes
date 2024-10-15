@@ -1,0 +1,37 @@
+.footer{background-image: url("/assets/images/home-page/Footer.png"); background-size: cover; height: 100%;}
+.footer-heading .btn{border-radius: 25px;padding: 10px 30px;}
+.footer-heading h3{color: #fff;}
+.social_media_links ul{border-top: solid 1px #fff; list-style: none;display: flex;flex-wrap: wrap;justify-content: center;padding: 20px 0;margin: 0;}
+.social_media_links ul li{padding: 0 10px;}
+.social_media_links ul li a{color: #fff;text-decoration: none;}
+.footer nav li a{color: #fff; padding: 0 15px;font-weight: normal;}
+.footer-para{
+    color: #fff;
+    font-weight: normal;
+    
+}
+.footers{background-color: #777; background-size: cover; height: 100%;}
+.footer nav li ul li a{color: #202020; padding: 3px 15px;font-weight: normal;}
+.footer nav li .nav-link.active, .footer nav li .nav-link:hover, .footer nav li .nav-link.show{color: #FF0000;}
+
+.footer-small-text {
+    font-size: 0.8rem; /* Adjust to make the text smaller */
+    line-height: 1.5; /* Adjust line height for readability */
+    color: #ffffff; /* Keep the text white as per your design */
+  }
+  
+  .footer-para span {
+    font-size: 1rem; /* You can keep this slightly larger than the smaller text */
+    line-height: 1.5;
+    color: #ffffff;
+  }
+
+  .footer1 {
+    font-family: Nunito Sans, var(--default-font-family);
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 1.4;
+    text-align: center;
+    margin: 20px 0;
+}
+  
